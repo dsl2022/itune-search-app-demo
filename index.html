@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>iTunes Music Search</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>iTunes Music Search</h1>
+
+    <form id="music-search-form">
+      <label for="musician-input">Musician:</label>
+      <input type="text" id="musician-input" required>
+
+      <label for="genre-input">Genre:</label>
+      <input type="text" id="genre-input" required>
+
+      <label for="year-input">Years:</label>
+      <input type="text" id="year-input" required>
+
+      <button type="submit">Search</button>
+    </form>
+
+    <ul id="music-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
